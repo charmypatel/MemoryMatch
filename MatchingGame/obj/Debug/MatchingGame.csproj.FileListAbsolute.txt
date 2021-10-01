@@ -1,0 +1,10 @@
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\bin\Debug\MatchingGame_PartnerProject.exe.config
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\bin\Debug\MatchingGame_PartnerProject.exe
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\bin\Debug\MatchingGame_PartnerProject.pdb
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame.csprojAssemblyReference.cache
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame_PartnerProject.Form1.resources
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame_PartnerProject.Properties.Resources.resources
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame.csproj.GenerateResource.cache
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame.csproj.CoreCompileInputs.cache
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame_PartnerProject.exe
+C:\Users\charm\OneDrive\Desktop\MatchingGame_PartnerProject(10-25)\MatchingGame_PartnerProject\obj\Debug\MatchingGame_PartnerProject.pdb

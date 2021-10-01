@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2BD53C7-7715-4326-A42A-DBC7FC674B39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MatchingGame_PartnerProject</RootNamespace>
+    <AssemblyName>MatchingGame_PartnerProject</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoardModel.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\david.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dobby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flowers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gary.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gryffindor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gunther.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hermione.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hufflepuff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\janice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jennifer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lisa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matthew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mrkrabs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patrick.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravenclaw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slytherin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongebob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squidward.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spongeboblogo.jpg" />
+    <None Include="Resources\friendslogo.jpg" />
+    <None Include="Resources\plankton.jpg" />
+    <None Include="Resources\courtney.jpg" />
+    <None Include="Resources\harrypotterlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FriendsSong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarryPotterSong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpongeBobSong.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
